@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Red+Hat+Mono:ital,wght@1,600&display=swap');
 
 body {
+    margin: 0;
     font-family: 'Dosis', sans-serif;
     font-family: 'Red Hat Mono', monospace;
 }
@@ -33,4 +34,9 @@ section {
     border-radius: 10%;
     color: white;
     font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
